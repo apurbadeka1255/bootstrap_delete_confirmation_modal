@@ -1,0 +1,96 @@
+body {
+  font-family: "Varela Round",sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.container .modal-dialog {
+  width: 30rem;
+}
+
+.container .modal-dialog .modal-content {
+  padding: 2rem;
+}
+
+.container .modal-dialog .modal-header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+}
+
+.container .modal-dialog .modal-header .modal-title {
+  font-size: 2rem;
+}
+
+.container .modal-dialog .modal-header .icons {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3px solid #f15e5e;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container .modal-dialog .modal-header .icons i {
+  font-family: sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  margin-left: -5px;
+  color: #f15e5e;
+}
+
+.container .modal-dialog .modal-header .btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container .modal-dialog .modal-body {
+  text-align: center;
+}
+
+.container .modal-dialog .modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+}
+
+.container .modal-dialog .modal-footer .btn {
+  padding: .5rem 2rem;
+}
+
+.container .modal-dialog .modal-footer .btn-delete {
+  color: #fff;
+  background-color: #f15e5e;
+}
+
+.container .modal-dialog .modal-footer .btn-delete:active {
+  color: #fff;
+  background-color: #f15e5e;
+}
+/*# sourceMappingURL=main.css.map */
